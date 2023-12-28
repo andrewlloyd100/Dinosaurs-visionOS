@@ -1,0 +1,58 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "Reality Composer Pro Version 1.0 (409.60.6)"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    def "Tyrannosarus_rex_Free_model" (
+        active = true
+        customData = {
+            float3 rotationEulerHint = (0, 4.712389, 0)
+        }
+        prepend references = @Tyrannosarus_rex_Free_model.usdz@
+    )
+    {
+        quatf xformOp:orient = (0.70710677, 0, -0.70710677, 0)
+        float3 xformOp:scale = (0.01, 0.01, 0.01)
+        float3 xformOp:translate = (0, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "Materials"
+        {
+            over "SkinColor"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "pbr_shader"
+                {
+                    color3f inputs:diffuseColor = (0.18, 0.18, 0.18)
+                    color3f inputs:diffuseColor.connect = </Root/Tyrannosarus_rex_Free_model/Materials/SkinColor/tex_base.outputs:rgb>
+                    delete float inputs:metallic.connect = </Root/Tyrannosarus_rex_Free_model/Materials/SkinColor/tex_metallic.outputs:r>
+                    float inputs:roughness = 0.8
+                    delete float inputs:roughness.connect = </Root/Tyrannosarus_rex_Free_model/Materials/SkinColor/tex_roughness.outputs:r>
+                }
+            }
+
+            over "eyeColor"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "pbr_shader"
+                {
+                    color3f inputs:emissiveColor = (0, 0, 0) (
+                        colorSpace = "srgb_displayp3"
+                    )
+                }
+            }
+        }
+    }
+}
+

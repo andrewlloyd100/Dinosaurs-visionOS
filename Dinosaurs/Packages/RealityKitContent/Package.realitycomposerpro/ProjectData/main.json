@@ -1,0 +1,19 @@
+{
+  "pathsToIds" : {
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/GridMaterial.usda" : "CB766F92-EE55-4A63-9401-E7B8C009764D",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Immersive.usda" : "65F6F990-A780-4474-B78B-572E0E4E273D",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Scene.usda" : "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Untitled Scene.usda" : "D560BB77-AAF3-4BDE-B7C4-989332A4688B",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/animatedTrex.usda" : "774DE2BE-4C26-487C-BC57-DA1A0B5ACF4A",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Dino.usda" : "E9573D44-4966-40ED-96C5-618788C60767",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/GridMaterial.usda" : "66168B71-AB05-424E-8B6C-D33D6E61B08F",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Immersive.usda" : "AF09ED6F-1707-48FD-8720-65B998362C09",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Materials\/GridMaterial.usda" : "4B9FDE7F-686A-4976-BA44-35FD45DF9ADC",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/raptor.usda" : "7D5CA92E-F7F4-4046-A22F-2224228F08C5",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/raptor2.usda" : "F125FBA5-C137-4056-88AC-FAC38C8A060C",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/raptorEgg.usda" : "3707DFC0-DA0D-4DCE-958D-CEFC4481082B",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Scene.usda" : "D66134B1-3681-4A8E-AFE5-29F257229F3B",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/trex.usda" : "573E7F14-4570-4CF2-8471-A2409B6B1108",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/triceratops.usda" : "54504259-1B2C-456C-AB5B-DA695E175BD3"
+  }
+}
