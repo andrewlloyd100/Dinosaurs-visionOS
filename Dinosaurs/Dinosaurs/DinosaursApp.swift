@@ -30,13 +30,13 @@ struct DinosaursApp: App {
         .defaultSize(width: 0.6, height: 0.8, depth: 0.4, in: .meters)
         
         ImmersiveSpace(id: RealityKitImmersionModels.triceratops.rawValue) {
-            TriceratopsImmersiveView()
+            DinoImmersiveView(immersionModel: .triceratops)
                 .environment(viewModel)
         }
         .immersionStyle(selection: $triceratopsImmersionStyle, in: .mixed)
         
         ImmersiveSpace(id: RealityKitImmersionModels.raptor.rawValue) {
-            RaptorImmersiveView()
+            DinoImmersiveView(immersionModel: .raptor)
                 .environment(viewModel)
         }
         .immersionStyle(selection: $raptorImmersionStyle, in: .mixed)

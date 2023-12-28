@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		230EC8B82B3DC39D006A3E6F /* DinoImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230EC8B72B3DC39D006A3E6F /* DinoImmersiveView.swift */; };
 		23F041E12B33310A002ACBF8 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 23F041E02B33310A002ACBF8 /* RealityKitContent */; };
 		23F041E32B33310A002ACBF8 /* DinosaursApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F041E22B33310A002ACBF8 /* DinosaursApp.swift */; };
 		23F041E52B33310A002ACBF8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F041E42B33310A002ACBF8 /* HomeView.swift */; };
@@ -17,11 +18,9 @@
 		23F041FA2B333C28002ACBF8 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F041F92B333C28002ACBF8 /* RootView.swift */; };
 		23F041FC2B333C91002ACBF8 /* ModuleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F041FB2B333C91002ACBF8 /* ModuleDetail.swift */; };
 		23F041FF2B334C9B002ACBF8 /* DragRotationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F041FE2B334C9A002ACBF8 /* DragRotationModifier.swift */; };
-		23F042012B335369002ACBF8 /* TriceratopsImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F042002B335369002ACBF8 /* TriceratopsImmersiveView.swift */; };
 		23F042032B345862002ACBF8 /* RaptorEggView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F042022B345862002ACBF8 /* RaptorEggView.swift */; };
 		23F042072B34634F002ACBF8 /* RaptorEggToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F042062B34634F002ACBF8 /* RaptorEggToggle.swift */; };
 		23F0420A2B348843002ACBF8 /* TriceratopsToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F042092B348843002ACBF8 /* TriceratopsToggle.swift */; };
-		23F0420C2B348ED4002ACBF8 /* RaptorImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F0420B2B348ED4002ACBF8 /* RaptorImmersiveView.swift */; };
 		23F0420E2B349056002ACBF8 /* RaptorImmersiveToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F0420D2B349056002ACBF8 /* RaptorImmersiveToggle.swift */; };
 		23F042112B3496CE002ACBF8 /* TrexImmersionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F042102B3496CE002ACBF8 /* TrexImmersionView.swift */; };
 		23F042132B3496DD002ACBF8 /* PrehistoricLandscape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F042122B3496DD002ACBF8 /* PrehistoricLandscape.swift */; };
@@ -34,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		230EC8B72B3DC39D006A3E6F /* DinoImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoImmersiveView.swift; sourceTree = "<group>"; };
 		23F041DB2B33310A002ACBF8 /* Dinosaurs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dinosaurs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23F041DF2B33310A002ACBF8 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		23F041E22B33310A002ACBF8 /* DinosaursApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinosaursApp.swift; sourceTree = "<group>"; };
@@ -46,11 +46,9 @@
 		23F041F92B333C28002ACBF8 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		23F041FB2B333C91002ACBF8 /* ModuleDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleDetail.swift; sourceTree = "<group>"; };
 		23F041FE2B334C9A002ACBF8 /* DragRotationModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragRotationModifier.swift; sourceTree = "<group>"; };
-		23F042002B335369002ACBF8 /* TriceratopsImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriceratopsImmersiveView.swift; sourceTree = "<group>"; };
 		23F042022B345862002ACBF8 /* RaptorEggView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaptorEggView.swift; sourceTree = "<group>"; };
 		23F042062B34634F002ACBF8 /* RaptorEggToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaptorEggToggle.swift; sourceTree = "<group>"; };
 		23F042092B348843002ACBF8 /* TriceratopsToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriceratopsToggle.swift; sourceTree = "<group>"; };
-		23F0420B2B348ED4002ACBF8 /* RaptorImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaptorImmersiveView.swift; sourceTree = "<group>"; };
 		23F0420D2B349056002ACBF8 /* RaptorImmersiveToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaptorImmersiveToggle.swift; sourceTree = "<group>"; };
 		23F042102B3496CE002ACBF8 /* TrexImmersionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrexImmersionView.swift; sourceTree = "<group>"; };
 		23F042122B3496DD002ACBF8 /* PrehistoricLandscape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrehistoricLandscape.swift; sourceTree = "<group>"; };
@@ -96,6 +94,7 @@
 			children = (
 				23F0421A2B3D8004002ACBF8 /* Environment.skybox */,
 				23F041E22B33310A002ACBF8 /* DinosaursApp.swift */,
+				230EC8B72B3DC39D006A3E6F /* DinoImmersiveView.swift */,
 				23F042042B346301002ACBF8 /* Home */,
 				23F042082B3487D4002ACBF8 /* Triceratops */,
 				23F0420F2B3496B1002ACBF8 /* Trex */,
@@ -159,9 +158,8 @@
 			isa = PBXGroup;
 			children = (
 				23F042062B34634F002ACBF8 /* RaptorEggToggle.swift */,
-				23F042022B345862002ACBF8 /* RaptorEggView.swift */,
-				23F0420B2B348ED4002ACBF8 /* RaptorImmersiveView.swift */,
 				23F0420D2B349056002ACBF8 /* RaptorImmersiveToggle.swift */,
+				23F042022B345862002ACBF8 /* RaptorEggView.swift */,
 			);
 			path = Raptor;
 			sourceTree = "<group>";
@@ -169,7 +167,6 @@
 		23F042082B3487D4002ACBF8 /* Triceratops */ = {
 			isa = PBXGroup;
 			children = (
-				23F042002B335369002ACBF8 /* TriceratopsImmersiveView.swift */,
 				23F042092B348843002ACBF8 /* TriceratopsToggle.swift */,
 			);
 			path = Triceratops;
@@ -278,13 +275,12 @@
 				23F042192B359A1E002ACBF8 /* PlacementGestures.swift in Sources */,
 				23F042222B3D8786002ACBF8 /* InfoView.swift in Sources */,
 				23F0421E2B3D802F002ACBF8 /* Entity+Light.swift in Sources */,
-				23F0420C2B348ED4002ACBF8 /* RaptorImmersiveView.swift in Sources */,
 				23F042152B3496E7002ACBF8 /* TRex.swift in Sources */,
 				23F041FC2B333C91002ACBF8 /* ModuleDetail.swift in Sources */,
 				23F041F52B33374C002ACBF8 /* ViewModel.swift in Sources */,
 				23F042032B345862002ACBF8 /* RaptorEggView.swift in Sources */,
 				23F042172B3497E7002ACBF8 /* TRexToggle.swift in Sources */,
-				23F042012B335369002ACBF8 /* TriceratopsImmersiveView.swift in Sources */,
+				230EC8B82B3DC39D006A3E6F /* DinoImmersiveView.swift in Sources */,
 				23F041E32B33310A002ACBF8 /* DinosaursApp.swift in Sources */,
 				23F041FA2B333C28002ACBF8 /* RootView.swift in Sources */,
 				23F042072B34634F002ACBF8 /* RaptorEggToggle.swift in Sources */,

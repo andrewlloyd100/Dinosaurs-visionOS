@@ -16,7 +16,6 @@ struct InfoView: View {
         "Raptor Egg" : "https://sketchfab.com/3d-models/easter-egg-2-9356e856a6af419eb97ef4a53f106603",
         "Triceratops" : "https://sketchfab.com/3d-models/triceratops-13c15e4a2eeb473cb025ab99608f3760",
         "Skeleton" : "https://sketchfab.com/3d-models/dinosaur-skeleton-printable-9803c283d60e4901b2da128e4e3fd5f8"
-        
     ]
     
     var body: some View {

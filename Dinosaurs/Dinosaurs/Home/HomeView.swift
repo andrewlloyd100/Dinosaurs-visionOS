@@ -32,7 +32,8 @@ struct HomeView: View {
             }
             Spacer()
             
-            Model3D(named: RealityKitImmersionModels.skeleton.rawValue, bundle: realityKitContentBundle) { model in
+            Model3D(named: RealityKitImmersionModels.skeleton.rawValue, 
+                    bundle: realityKitContentBundle) { model in
                 model
                     .resizable()
                     .scaledToFit()

@@ -22,7 +22,6 @@ struct ModuleDetail: View {
         @Bindable var model = model
 
         GeometryReader { proxy in
-            let availableWidth = proxy.size.width - (padding * 3)
             ZStack {
                 HStack(spacing: padding) {
                     VStack(alignment: .leading, spacing: 0) {
