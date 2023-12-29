@@ -26,12 +26,17 @@ struct TRex: View {
                     trex.playAnimation(anim.repeat(duration: .infinity), startsPaused: false)
                 }
                 
+                trex.setLight(intensity: 1.0, inheritsRotation: false)
                 self.trex = trex
             }
             catch {
                 print("Error in RealityView's make: \(error)")
             }
         }
+        .placementGestures(
+            initialPosition: Point3D([-2000, 0, -3000.0]),
+            axZoomIn: false,
+            axZoomOut: false)
     }
 }
 
