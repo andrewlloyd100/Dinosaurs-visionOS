@@ -28,6 +28,7 @@ struct DinoImmersiveView: View {
                     dinoEntity.playAnimation(anim.repeat(duration: .infinity), startsPaused: false)
                 }
 
+                dinoEntity.setLight(intensity: 1.0, inheritsRotation: false)
                 self.dino = dinoEntity
             }
             catch{
