@@ -1,2 +1,2 @@
 # Dinosaurs-visionOS
-A dinosaur demo POC application making use of the VisionOS SDK 
+A dinosaur demo POC application making use of the VisionOS SDK demonstrating Window, Volume and Immersive scenes.
